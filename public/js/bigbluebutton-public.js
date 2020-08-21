@@ -29,7 +29,7 @@
 	 * practising this, we should strive to set a better example in our own work.
 	 */
 
-	$( window ).load( function() {
+	$(window).on("load", function (e) {
 
 		// display/hide recordings
 		$( '.bbb-recordings-display' ).click( function() {
