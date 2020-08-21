@@ -17,7 +17,7 @@
 	 *
 	 * When the window is loaded:
 	 *
-	 * $( window ).load(function() {
+	 * $(window).on("load", function (e) {
 	 *
 	 * });
 	 *
@@ -29,7 +29,7 @@
 	 * practising this, we should strive to set a better example in our own work.
 	 */
 
-	$( window ).load( function() {
+	$(window).on("load", function (e) {
 
 		// Make update success message in save server settings disppear after 2 seconds.
 		if ( $( '.updated' ).length ) {
